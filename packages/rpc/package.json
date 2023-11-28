@@ -1,0 +1,14 @@
+{
+  "name": "rpc",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^6.8.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.2"
+  }
+}
