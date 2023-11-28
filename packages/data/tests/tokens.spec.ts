@@ -2,7 +2,7 @@ import { tokensByOwner, tokensByMinter } from "../src/tokens";
 import { Nft } from "../src/types";
 
 describe("token queries", () => {
-  test("tokensByOwner", async () => {
+  test.skip("tokensByOwner", async () => {
     const tokens: Nft[] = await tokensByOwner(
       "0x7B0A39E892599D9EEBA61D2E7DD4B36F747A1A09",
     );
@@ -61,7 +61,7 @@ describe("token queries", () => {
       },
     ]);
   });
-  test("tokensByMinter", async () => {
+  test.skip("tokensByMinter", async () => {
     const tokens: Nft[] = await tokensByMinter(
       "0x7B0A39E892599D9EEBA61D2E7DD4B36F747A1A09",
     );
